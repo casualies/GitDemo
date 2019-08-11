@@ -38,4 +38,4 @@ while True:
     song = make_album(singer,album,number)
     print(song)
  
-＃纯属无聊
+print("hello world!")
