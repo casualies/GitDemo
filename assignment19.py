@@ -26,16 +26,18 @@ def make_album(singer,album,number=''):
     
 while True:
     print("enter 'q' at any time to quit")
-    singer = input("歌手的名字")
+    singer = input("歌手的名�?")
     if singer == 'q':
         break
-    album = input("专辑的名称")
+    album = input("专辑的名�?")
     if album == 'q':
         break
-    number = input("歌曲数")
+    number = input("歌曲�?")
     if number == 'q':
         break
     song = make_album(singer,album,number)
     print(song)
  
 print("hello world!")
+
+print("hello linyi")
