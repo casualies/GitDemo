@@ -26,14 +26,16 @@ def make_album(singer,album,number=''):
     
 while True:
     print("enter 'q' at any time to quit")
-    singer = input("¸èÊÖµÄÃû×Ö")
+    singer = input("æ­Œæ‰‹çš„åå­—")
     if singer == 'q':
         break
-    album = input("×¨¼­µÄÃû³Æ")
+    album = input("ä¸“è¾‘çš„åç§°")
     if album == 'q':
         break
-    number = input("¸èÇúÊı")
+    number = input("æ­Œæ›²æ•°")
     if number == 'q':
         break
     song = make_album(singer,album,number)
     print(song)
+ 
+ï¼ƒçº¯å±æ— èŠ
